@@ -1,0 +1,639 @@
+/* ALGEMEEN */
+body,html
+{
+	height: 100%;
+}
+
+html
+{ 	overflow-y: scroll;
+}
+
+body
+{	margin: 0;
+	background: #f4f4f4;
+}
+
+body, table , p, div
+{
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+}
+
+/* FONTS */
+p, div, form, h1, h2, h3, h4, h5, h6
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+p, div 
+{
+	text-align: left;
+}
+
+h1, h2, h3
+{
+ font-size: 18px;
+ font-style: normal;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.kop
+{
+ font-size: 18px;
+ font-style: normal;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.kopje
+{
+ font-size: 16px;
+ font-style: normal;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.normaal
+{
+ font-size: 12px;
+ font-style: normal;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.klein
+{
+ font-size: 11px;
+ font-style: normal;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.heelklein
+{
+ font-size: 9px;
+ font-style: normal;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited, a:active, a:hover
+{
+}
+
+
+
+
+td.bovenbalk 
+{
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 7pt;
+ font-style: normal;
+ color: #FFFFFF;
+} 
+
+td.bovenbalk a , td.logo a 
+{
+ font-weight: normal;
+ color: #FFFFFF;
+} 
+
+td.logo a:hover 
+{
+ color: #ffffff;
+ background-color: transparent;
+} 
+
+
+
+
+/* DIV ID */
+#website
+{
+	width: 1000px;
+	min-height: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	overflow: hidden;
+	background-image: url(p/vert_lijn.png);
+}
+
+#boven
+{	
+	width: 1000px;
+	top: 0px;
+	height: 113px;
+	padding: 15px 30px 0px 10px;
+	background-repeat: no-repeat;
+}
+
+#nav
+{
+	float: left;
+	width: 172px;
+	padding: 0px 8px 20px 10px;
+}
+
+#midden
+{
+	float: left;
+	width: 570px;
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#rechts
+{
+	text-align: right;
+	float: left;
+	width: 180px;
+	padding: 10px 20px 20px 10px;
+}
+
+#onder
+{
+	clear: both;
+	width: 940px;
+	height: 38px;
+	bottom: 0px;
+	left: 0px;
+	padding: 10px 30px 0px 30px;
+	background-repeat: no-repeat;
+}
+
+/* DIV CLASS */
+.menudiv, .menu2div   /* links en rechts */
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	margin-top: 6px;
+	color: #000000;
+}
+
+.menudiv  /* links */
+{
+	width: 150px;
+}
+
+.menu2div  /* rechts */
+{	
+	width: 140px;
+	margin-left: 20px;
+}
+
+.menudiv p, .menu2div p
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 8pt;
+}
+
+.submenudiv
+{
+	width: 130px;
+	padding-left: 20px;
+	padding-right: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #ffffff;
+	font-weight: normal;
+	font-size: 8pt;
+	border-left-width: 1px; 
+	border-left-style: solid;
+	border-left-color: #000000;
+}
+
+.nivknoppen
+{
+	width: 210px;
+	height: 31px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nivknop_uit
+{
+	float:left;
+	width: 70px;
+	height: 29px;
+	padding: 2px 0px 0px 0px;
+	margin: 0px;
+	color: #000000;
+	background-image: url(p/nivknop_uit.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 12px;
+}
+
+.nivknop_aan
+{
+	float:left;
+	width: 70px;
+	height: 29px;
+	padding: 2px 0px 0px 0px;
+	margin: 0px;
+	color: #000000;
+	background-image: url(p/nivknop_aan.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 12px;
+}
+
+.menudiv a, .submenudiv a, .menu2div a , .nivknoppen a
+{
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000; 
+}
+
+.tekstvakdiv
+{
+	width: 550px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ffffff;
+	margin-bottom: 6px;
+	color: #000000;
+}
+
+.uitlegdiv
+{
+	width: 434px;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #ffffff;
+	border-width: 1px; 
+	border-style: solid;
+	border-color: #eeeeee;
+	color: #000000;
+}
+
+
+/* FONTS */
+h1, h2, h3, .kop, .kopje
+{
+ color: #f07700;
+}
+
+
+a
+{
+ color: #f07700;
+}
+
+a:hover
+{
+ color: #333333;
+}
+
+#mob_boven 
+{
+	background-image: url(mob_ag_boven.png);
+}
+
+
+#boven 
+{
+	background-image: url(ag_boven.png);
+}
+
+#midden
+{
+	background-color: #eeeeee;
+}
+
+#onder
+{
+	background-image: url(ag_onder.png);
+}
+
+.menudiv, .menu2div   /* links en rechts */
+{
+	background-color: #eeeeee;
+}
+
+.menudiv p, .menu2div p, .submenudiv
+{ /* niet-linkteksten in menu (actieve pagina) */
+	color: #f8000c;
+}
+
+.menudiv a:hover, .submenudiv a:hover, .menu2div a:hover
+{ /* mouseover in menu */
+ color: #f8000c;
+}
+
+/* ALGEMEEN */
+body,html
+{
+	height: 100%;
+}
+
+html
+{ 	overflow-y: scroll;
+}
+
+body
+{	margin: 0;
+	background: #f4f4f4;
+}
+
+body, table , p, div
+{
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+}
+
+/* FONTS */
+p, div, form, h1, h2, h3, h4, h5, h6
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+p, div 
+{
+	text-align: left;
+}
+
+h1, h2, h3
+{
+ font-size: 18px;
+ font-style: normal;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.kop
+{
+ font-size: 18px;
+ font-style: normal;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.kopje
+{
+ font-size: 16px;
+ font-style: normal;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.normaal
+{
+ font-size: 12px;
+ font-style: normal;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.klein
+{
+ font-size: 11px;
+ font-style: normal;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.heelklein
+{
+ font-size: 9px;
+ font-style: normal;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited, a:active, a:hover
+{
+}
+
+
+
+
+td.bovenbalk 
+{
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 7pt;
+ font-style: normal;
+ color: #FFFFFF;
+} 
+
+td.bovenbalk a , td.logo a 
+{
+ font-weight: normal;
+ color: #FFFFFF;
+} 
+
+td.logo a:hover 
+{
+ color: #ffffff;
+ background-color: transparent;
+} 
+
+
+
+
+/* DIV ID */
+#website
+{
+	width: 1000px;
+	min-height: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	overflow: hidden;
+	background-image: url(p/vert_lijn.png);
+}
+
+#boven
+{	
+	width: 1000px;
+	top: 0px;
+	height: 113px;
+	padding: 15px 30px 0px 10px;
+	background-repeat: no-repeat;
+}
+
+#nav
+{
+	float: left;
+	width: 172px;
+	padding: 0px 8px 20px 10px;
+}
+
+#midden
+{
+	float: left;
+	width: 570px;
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#rechts
+{
+	text-align: right;
+	float: left;
+	width: 180px;
+	padding: 10px 20px 20px 10px;
+}
+
+#onder
+{
+	clear: both;
+	width: 940px;
+	height: 38px;
+	bottom: 0px;
+	left: 0px;
+	padding: 10px 30px 0px 30px;
+	background-repeat: no-repeat;
+}
+
+/* DIV CLASS */
+.menudiv, .menu2div   /* links en rechts */
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	margin-top: 6px;
+	color: #000000;
+}
+
+.menudiv  /* links */
+{
+	width: 150px;
+}
+
+.menu2div  /* rechts */
+{	
+	width: 140px;
+	margin-left: 20px;
+}
+
+.menudiv p, .menu2div p
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 8pt;
+}
+
+.submenudiv
+{
+	width: 130px;
+	padding-left: 20px;
+	padding-right: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #ffffff;
+	font-weight: normal;
+	font-size: 8pt;
+	border-left-width: 1px; 
+	border-left-style: solid;
+	border-left-color: #000000;
+}
+
+.nivknoppen
+{
+	width: 210px;
+	height: 31px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nivknop_uit
+{
+	float:left;
+	width: 70px;
+	height: 29px;
+	padding: 2px 0px 0px 0px;
+	margin: 0px;
+	color: #000000;
+	background-image: url(p/nivknop_uit.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 12px;
+}
+
+.nivknop_aan
+{
+	float:left;
+	width: 70px;
+	height: 29px;
+	padding: 2px 0px 0px 0px;
+	margin: 0px;
+	color: #000000;
+	background-image: url(p/nivknop_aan.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 12px;
+}
+
+.menudiv a, .submenudiv a, .menu2div a , .nivknoppen a
+{
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000; 
+}
+
+.tekstvakdiv
+{
+	width: 550px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ffffff;
+	margin-bottom: 6px;
+	color: #000000;
+}
+
+.uitlegdiv
+{
+	width: 434px;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #ffffff;
+	border-width: 1px; 
+	border-style: solid;
+	border-color: #eeeeee;
+	color: #000000;
+}
